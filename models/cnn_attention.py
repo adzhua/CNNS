@@ -4,6 +4,7 @@ import numpy as np
 slim = tf.contrib.slim
 """
 CBAM: Convolutional Block Attention Module
+https://www.jianshu.com/p/4fac94eaca91
 """
 
 def combined_static_and_dynamic_shape(tensor):
